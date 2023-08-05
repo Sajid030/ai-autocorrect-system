@@ -6,10 +6,10 @@
 ![EditDistance](https://img.shields.io/badge/-EditDistance-FF6600?logo=editdistance&logoColor=white)
 
 ## Table of Contents
-
 - [Demo](#demo)
 - [Overview](#overview)
 - [Features](#features)
+- [About the Corpus](#about-the-corpus)
 - [Usage](#how-to-use)
 - [Limitations](#limitations)
 
@@ -36,6 +36,13 @@ The AI Autocorrect System is a Python-based application that offers real-time au
 - **Selecting Suggestions:** The system displays suggestions in a list box format after waiting for 5 seconds of inactivity, allowing users to select the appropriate correction for the misspelled word. The suggestions are also ordered based on the similarity of the longer prefix, which means that similar words with longer common prefixes are suggested first in the list.
 
 - **Automatic Word Replacement:**  If the user doesn't select from the list of autocorrection options and still the word is incorrect upon hitting the space bar, the application automatically replaces the misspelled word with the correction having the highest probability in the provided text corpus. This ensures a seamless and efficient autocorrection process without the need for explicit user selection.
+
+## About the Corpus:
+The success of the AI Autocorrect System highly depends on the quality and diversity of the corpus. Your corpus should include a large number of unique words to ensure that the system can effectively correct different misspelled words.
+
+To create my `corpus.txt`, I explored multiple text-based datasets covering a wide range of subjects, including literature, healthcare, dictionaries, and various other domains. Each dataset contributed a unique set of words, enriching the vocabulary of the corpus. If the corpus does not have cleaned text, it is important to process it, ensuring that it only contains valid English words while removing any irrelevant characters, numbers, special symbols, and non-English words.
+
+In short, you can make your corpus as big as possible, but it is crucial to ensure that it contains valid words.
 
 ## How to Use:
 
