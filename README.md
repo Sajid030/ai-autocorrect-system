@@ -46,7 +46,7 @@ In short, you can make your corpus as big as possible, but it is crucial to ensu
 
 ## How to Use:
 
-1. Run the application by executing the main_script.py file.
+1. Run the application by executing the `main_script.py` file.
 2. The GUI window will open, displaying an input box.
 3. Start typing in the input box, and the application will provide real-time autocorrection suggestions.
 4. If you encounter a misspelled word, the system will suggest corrections in the list box below the input box.
